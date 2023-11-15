@@ -309,6 +309,10 @@ header .mobile {
   padding: 0 1%;
 }
 
+#filters-section .image-container {
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
