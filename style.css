@@ -130,6 +130,13 @@ header .mobile {
 
 #sign-up-section .banner {
   background-image: url("../images/banner-landingpage.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 10.625rem 12.5rem;
 }
 
 
