@@ -39,6 +39,7 @@ html {
 
 header {
   position: fixed;
+  z-index: 100;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
@@ -86,12 +87,13 @@ header .mobile {
   }
 
   header .mobile {
-    display: block;
-    width: 100%;
+    display: none;
   }
 
   header .content {
-    padding: .5rem 0;
+    display: flex;
+    align-items: center;
+    padding: 1.875rem;
   }
 
   header .mobile ul {
@@ -120,14 +122,13 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  background-image: url(C:/Users/travis.jones/Documents/projects/fotomatic_broken/resources/images/banner-landingpage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
 }
 
-#sign-up-section .banner {
-  background-image: url(C:/Users/travis.jones/Documents/projects/fotomatic_broken/resources/images/banner-landingpage.jpg);
-}
+
 
 #sign-up-cta {
   position: relative;
@@ -236,10 +237,18 @@ header .mobile {
   background-color: white;
 }
 
+.center {
+  text-align: center;
+}
+
 .feature .image-container {
   width: 90%;
   height: 65%;
   margin: 0 auto;
+}
+
+.feature .content {
+  padding: 2.5rem 0;
 }
 
 .feature h2 {
