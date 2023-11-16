@@ -122,10 +122,10 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
-  background-image: url(C:/Users/travis.jones/Documents/projects/fotomatic_broken/resources/images/banner-landingpage.jpg);
+  background-image: url("../images/banner-landingpage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
 }
 
 
